@@ -26,16 +26,27 @@ margin: 0;
 .div-01 {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 25px;
     width: 30em;
+   
+   
+
 }
 
 .div-01 button {
-    width: 10rem;
+    width: 8rem;
+    height: 3rem;
+
 }
 
 .div-01 p {
 
 font-size: 20px;
+
+}
+
+.div-01 h1 {
+font-size: 50px;
+
 
 }
