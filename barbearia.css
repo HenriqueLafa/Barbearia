@@ -13,7 +13,9 @@ margin: 0;
     height: 30em;
     color: white;
     padding: 5em;
-    
+    display: flex;
+    justify-content: start;
+    align-items: center;
 
 
 
