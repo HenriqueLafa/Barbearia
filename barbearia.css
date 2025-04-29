@@ -4,6 +4,19 @@ margin: 0;
 
 }
 
+header {
+background-color: #493d3f;
+padding: 40px;
+display: flex;
+justify-content: space-between;
+
+
+
+
+}
+
+
+
 
 
 .Primeira {
@@ -34,8 +47,9 @@ margin: 0;
 }
 
 .div-01 button {
-    width: 8rem;
+    width: 10rem;
     height: 3rem;
+    border-radius: 20px;
 
 }
 
