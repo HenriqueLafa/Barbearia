@@ -84,3 +84,58 @@ font-size: 50px;
 
 
 }
+
+.Segunda {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+padding: 20px;
+
+
+}
+
+.Segunda img {
+width: 40em;
+height: 50em;
+
+
+
+}
+
+.Segunda h1 {
+display: flex;
+font-size: 50px;
+padding: 30px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+
+
+
+
+}
+.Div-h1 {
+width: 30em;
+margin-left: 30px;
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+}
+
+.Segunda p {
+font-size: 20px;
+display: flex;
+
+
+
+
+}
+
+.Div-Paragrafo {
+margin-top: 20px;
+background-color: cadetblue;
+
+
+}
