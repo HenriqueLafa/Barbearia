@@ -9,16 +9,36 @@ background-color: #493d3f;
 padding: 40px;
 display: flex;
 justify-content: space-between;
+align-items: center;
+
 
 
 
 
 }
 
+.div-icone i {
+font-size: 3rem;
+
+}
+
+.ul-lista {
+display: flex;
+list-style: none;
+gap: 15px;
 
 
 
+}
 
+.ul-lista a {
+list-style: none;
+color: rgb(0, 0, 0);
+background-color: #ededf0;
+padding: 6px;
+
+
+}
 .Primeira {
 
     background-image: url(istockphoto-1797031057-612x612.jpg);
