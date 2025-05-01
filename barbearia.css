@@ -300,6 +300,7 @@ margin-top: 1em;
 .corte {
     box-shadow: 10px 10px 30px rgb(214, 214, 214);
     transition: 0.8s;
+    
 
 
 }
@@ -334,5 +335,10 @@ margin-top: 1em;
     box-shadow: 10px 10px 30px rgb(255, 251, 0);
     transition: 0.8s;
 
+
+}
+
+.barbeiro {
+padding-left: 0.5em;
 
 }
