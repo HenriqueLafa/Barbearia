@@ -149,7 +149,7 @@ header {
     display: flex;
     align-items: center;
     padding-top: 3em;
-padding-left: 4em;
+    padding-left: 4em;
 
 
 }
@@ -166,6 +166,173 @@ padding-left: 4em;
 
 .Div-Imagem {
     padding: 30px;
+
+
+}
+
+.h1-unidades {
+    text-align: center;
+    font-size: 2em;
+
+
+
+}
+
+.Terceira img {
+    width: 20em;
+    border-radius: 15px;
+
+
+}
+
+.Terceira {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+
+
+}
+
+.Div-pai {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10em;
+    padding: 3em;
+    text-align: center;
+
+
+}
+
+
+.Cartao-01 h1 {
+    padding-top: 1em;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Terceira p {
+    padding-top: 10px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.Terceira button {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-weight: bold;
+    border-color: rgb(0, 0, 0);
+    border-width: 6px;
+
+
+
+}
+
+.button-02 {
+    padding-top: 10px;
+
+
+}
+
+.Quarta {
+padding: 3em;
+background-color: rgb(39, 38, 38);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+
+}
+
+.Serviços {
+text-align: center;
+font-size: 2.5em;
+color: white;
+
+}
+
+.Quarta img {
+    width: 20em;
+    border-radius: 15px;
+
+}
+
+.Pai-caixas {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 6em;
+  padding: 2em;
+  color: white;
+  
+ 
+  
+
+
+}
+
+
+
+.Pai-caixas h1 {
+padding-top: 0.8em;
+
+}
+
+.Pai-caixas p {
+padding-top: 0.8em;
+text-align: center;
+background-color: rgb(0, 0, 0);
+padding: 0.4em;
+width: 10em;
+margin-left: 4em;
+margin-top: 1em;
+
+
+
+}
+
+.corte {
+    box-shadow: 10px 10px 30px rgb(214, 214, 214);
+    transition: 0.8s;
+
+
+}
+
+.barba {
+    box-shadow: 10px 10px 30px rgb(214, 214, 214);
+    transition: 0.8s;
+
+
+}
+
+.CORTE-BARBA {
+
+    box-shadow: 10px 10px 30px rgb(214, 214, 214);
+    transition: 0.8s;
+
+}
+
+.corte:hover {
+    box-shadow: 10px 10px 20px rgb(255, 251, 1);
+    transition: 0.8s;
+
+}
+
+.barba:hover {
+    box-shadow: 10px 10px 30px rgb(255, 251, 0);
+    transition: 0.8s;
+
+}
+
+.CORTE-BARBA:hover {
+    box-shadow: 10px 10px 30px rgb(255, 251, 0);
+    transition: 0.8s;
 
 
 }
