@@ -1,15 +1,15 @@
-*{
-margin: 0;
+* {
+    margin: 0;
 
 
 }
 
 header {
-background-color: #493d3f;
-padding: 40px;
-display: flex;
-justify-content: space-between;
-align-items: center;
+    background-color: #493d3f;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 
 
@@ -18,27 +18,28 @@ align-items: center;
 }
 
 .div-icone i {
-font-size: 3rem;
+    font-size: 3rem;
 
 }
 
 .ul-lista {
-display: flex;
-list-style: none;
-gap: 15px;
+    display: flex;
+    list-style: none;
+    gap: 15px;
 
 
 
 }
 
 .ul-lista a {
-list-style: none;
-color: rgb(0, 0, 0);
-background-color: #ededf0;
-padding: 6px;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    background-color: #ededf0;
+    padding: 6px;
 
 
 }
+
 .Primeira {
 
     background-image: url(istockphoto-1797031057-612x612.jpg);
@@ -61,8 +62,8 @@ padding: 6px;
     flex-direction: column;
     gap: 25px;
     width: 30em;
-   
-   
+
+
 
 }
 
@@ -75,49 +76,52 @@ padding: 6px;
 
 .div-01 p {
 
-font-size: 20px;
+    font-size: 20px;
 
 }
 
 .div-01 h1 {
-font-size: 50px;
+    font-size: 50px;
 
 
 }
 
 .Segunda {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 20px;
-padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
 
 
 }
 
 .Segunda img {
-width: 40em;
-height: 50em;
+    width: 40em;
+    height: 50em;
 
 
 
 }
 
 .Segunda h1 {
-display: flex;
-font-size: 50px;
-padding: 30px;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bold;
+    display: flex;
+    font-size: 50px;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 
 
 
 
 }
+
 .Div-h1 {
-width: 30em;
-margin-left: 30px;
-font-family: Arial, Helvetica, sans-serif;
+    width: 30em;
+    padding-left: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+
+
 
 
 
@@ -125,8 +129,8 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .Segunda p {
-font-size: 20px;
-display: flex;
+    font-size: 20px;
+    display: flex;
 
 
 
@@ -134,8 +138,34 @@ display: flex;
 }
 
 .Div-Paragrafo {
-margin-top: 20px;
-background-color: cadetblue;
+    padding-top: 2em;
+
+
+
+}
+
+.Div-Button {
+
+    display: flex;
+    align-items: center;
+    padding-top: 3em;
+padding-left: 4em;
+
+
+}
+
+.bnt {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 20px;
+    color: black;
+    border-color: rgb(0, 0, 0);
+    border-width: 4px;
+
+}
+
+.Div-Imagem {
+    padding: 30px;
 
 
 }
