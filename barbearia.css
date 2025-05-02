@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: #493d3f;
+    background-color: #2b2829;
     padding: 40px;
     display: flex;
     justify-content: space-between;
@@ -19,6 +19,7 @@ header {
 
 .div-icone i {
     font-size: 3rem;
+    color: white;
 
 }
 
@@ -349,7 +350,7 @@ display: flex;
 justify-content: space-evenly;
 padding: 2em;
 gap: 5em;
-background-color: #493d3f;
+background-color: #131212;
 align-items: center;
 padding-left: 9em;
 
