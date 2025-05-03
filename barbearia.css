@@ -402,3 +402,81 @@ text-decoration: none;
 
 }
 
+@media (max-width:760px) {
+
+
+header {
+flex-direction: column;
+display: flex;
+
+
+
+
+
+}
+
+header i {
+padding-bottom: 1em;
+
+
+}
+
+.ul-lista  {
+padding-right: 1em;
+
+}
+
+.Segunda{
+flex-direction: column;
+
+
+}
+
+.Segunda img {
+width: 22em;
+height: 35em;
+min-width: 360;
+
+
+
+}
+
+.Div-h1 p {
+width: 15em;
+text-align: center;
+padding-left: 3em;
+
+
+}
+
+.Div-h1 h1 {
+padding-left: 1.2em;
+
+}
+
+
+    .bnt {
+        width: 70%; /* O botão ocupa 90% da tela menor */
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
