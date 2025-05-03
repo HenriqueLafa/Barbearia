@@ -200,7 +200,7 @@ header {
 .Div-pai {
     display: flex;
     justify-content: space-evenly;
-    gap: 10em;
+    gap: 6em;
     padding: 3em;
     text-align: center;
 
@@ -348,11 +348,11 @@ padding-left: 0.5em;
 footer {
 display: flex;
 justify-content: space-evenly;
-padding: 2em;
-gap: 5em;
+padding: 1.5em;
+gap: 7em;
 background-color: #131212;
 align-items: center;
-padding-left: 9em;
+
 
 
 
@@ -381,7 +381,7 @@ color: white;
 
 .List-Footer ul {
 padding: 1em;
-line-height: 2em;
+line-height: 1.8em;
 list-style: none;
 
 
@@ -402,7 +402,7 @@ text-decoration: none;
 
 }
 
-@media (max-width:760px) {
+@media (min-width: 360px) and (max-width: 800px) {
 
 
 header {
@@ -459,11 +459,170 @@ padding-left: 1.2em;
         width: 75%; /* O botão ocupa 90% da tela menor */
     }
 
+    .Div-pai {
+        flex-direction: column;
+       
+        
+        
+        }
+
+.Cartao-01 img {
+
+width: 18em;
+
+}
+
+.Pai-caixas {
+flex-direction: column;
+
+
+}
+
+.Quarta img {
+width: 18em;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+
+
+
+}
+
+footer p {
+font-size: 2em;
+
 
 }
 
 
+}
 
+
+@media (min-width: 320px) and (max-width: 568px) {
+
+.Primeira {
+display: flex;
+justify-content: center;
+
+
+}
+
+header {
+    flex-direction: column;
+    display: flex
+
+
+}
+
+header i {
+
+    padding-bottom: 1em;
+
+}
+.ul-lista  {
+    padding-right: 1em;
+    
+    }
+
+
+
+    .Segunda{
+        flex-direction: column;
+        
+        
+        }
+        
+        .Segunda img {
+        width: 19.5em;
+        border-radius: 2em;
+        height: 30em;
+        min-width: 360;
+        
+        
+        
+        }
+
+
+.Terceira {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.Div-h1 h1{
+padding-left: 1.3em;
+
+
+}
+
+.Div-h1 p {
+    width: 15em;
+    text-align: center;
+    padding-left: 3em;
+    
+
+}
+
+
+.bnt {
+    width: 75%; /* O botão ocupa 90% da tela menor */
+}
+
+
+.Div-pai {
+    flex-direction: column;
+   
+    
+    
+    }
+
+    .Div-pai img {
+width: 18em;
+
+
+    }
+.Pai-caixas {
+flex-direction: column;
+
+
+}
+
+
+.Quarta img {
+    width: 18em;
+    
+    }
+    
+    footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+    
+    
+    }
+    
+    footer p {
+    font-size: 2em;
+    
+    
+    }
+    
+    }
+
+
+
+
+
+
+
+    
 
 
 
