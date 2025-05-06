@@ -11,7 +11,10 @@ header {
     justify-content: space-between;
     align-items: center;
 
-
+position: sticky;
+top: 0;
+left: 0;
+z-index: 999;
 
 
 
@@ -26,7 +29,7 @@ header {
 .ul-lista {
     display: flex;
     list-style: none;
-    gap: 15px;
+    gap: 20px;
 
 
 
@@ -38,6 +41,14 @@ header {
     background-color: #ededf0;
     padding: 6px;
     text-decoration: none;
+
+
+}
+
+.ul-lista li a:hover {
+background-color: #2b2829;
+transition: 0.8s;
+color: white;
 
 
 }
@@ -69,6 +80,13 @@ header {
 
 }
 
+.div-01 button:hover {
+background-color: #2b2829;
+transition: 0.8s;
+color: white;
+
+
+}
 .div-01 button {
     width: 10rem;
     height: 3rem;
@@ -156,6 +174,13 @@ header {
 
 }
 
+.bnt:hover {
+background-color: #2b2829;
+transition: 0.8s;
+color: white;
+
+
+}
 .bnt {
     width: 15rem;
     height: 3rem;
@@ -237,6 +262,14 @@ header {
 
 .button-02 {
     padding-top: 10px;
+
+
+}
+
+.Terceira button:hover {
+background-color: #2b2829;
+transition: 0.8s;
+color: white;
 
 
 }
@@ -348,10 +381,11 @@ padding-left: 0.5em;
 footer {
 display: flex;
 justify-content: space-evenly;
-padding: 1.5em;
+align-items: center;
+padding: 2rem 1rem;
 gap: 7em;
 background-color: #131212;
-align-items: center;
+
 
 
 
@@ -408,6 +442,8 @@ text-decoration: none;
   text-decoration: none;
 
 }
+
+
 
 @media (min-width: 360px) and (max-width: 800px) {
 
