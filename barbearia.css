@@ -5,15 +5,13 @@
 list-style: none;
 
 }
-* {
-    box-sizing: border-box;
-}
-body {
+
+html, body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-}
-
+    overflow-x: hidden; /* força a remover qualquer rolagem lateral */
+    width: 100%;
+  }
 header {
     background-color: #2b2829;
     padding: 40px;
@@ -40,6 +38,7 @@ z-index: 999;
 .ul-lista {
     display: flex;
     gap: 20px;
+ 
    
 
 
@@ -138,11 +137,11 @@ color: white;
 
 }
 
-.Segunda img {
-    width: 100%;  /* substitui os 40em */
-    max-width: 640px;
-    height: auto;  /* deixa a altura proporcional */
-}
+.Div-h1 {
+    width: 100%;
+    max-width: 30em;
+  }
+
 .Segunda h1 {
     display: flex;
     font-size: 50px;
