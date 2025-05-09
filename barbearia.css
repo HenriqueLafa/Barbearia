@@ -137,10 +137,11 @@ color: white;
 
 }
 
-.Div-h1 {
+.Segunda img {
     width: 100%;
-    max-width: 30em;
-  }
+    max-width: 40em;
+    height: auto;
+}
 
 .Segunda h1 {
     display: flex;
