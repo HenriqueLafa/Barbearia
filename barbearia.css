@@ -487,11 +487,8 @@ align-items: center;
 
 }
 
-.div01 p{
-font-size: 1.6rem;
-margin: 25px;
 
-}
+
 
 .hamburguer {
 display: flex;
@@ -529,19 +526,20 @@ min-width: 360;
 .Div-h1 p {
 width: 15em;
 text-align: center;
-padding-left: 3em;
+padding-left: 4em;
 
 
 }
 
-.Div-h1 h1 {
-padding-left: 1.2em;
+.h1-unidades {
+font-size: 2.8em;
 
 }
 
 
     .bnt {
         width: 75%; /* O botão ocupa 90% da tela menor */
+        margin-right: 8em;
     }
 
     .Div-pai {
