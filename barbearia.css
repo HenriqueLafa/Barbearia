@@ -1,17 +1,11 @@
 * {
     margin: 0;
-list-style-type: none;
-
-}
-
-* {
-    box-sizing: border-box;
-}
-body {
-    margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    box-sizing: border-box;
+list-style: none;
+
 }
+
 header {
     background-color: #2b2829;
     padding: 40px;
@@ -35,24 +29,22 @@ z-index: 999;
 
 }
 
-.nav-header {
-display: flex;
-justify-content: end;
-
-
-}
 .ul-lista {
     display: flex;
-     gap: 20px;
+    gap: 20px;
    
+
+
+
 }
 
 .ul-lista a {
-    list-style: none;
+   
     color: rgb(0, 0, 0);
     background-color: #ededf0;
     padding: 6px;
     text-decoration: none;
+    font-weight: 500;
 
 
 }
@@ -65,6 +57,11 @@ color: white;
 
 }
 
+.nav-header {
+display: flex;
+justify-content: end;
+
+}
 .hamburguer {
 display: none;
 
@@ -132,10 +129,13 @@ color: white;
 
 
 }
+
 .Segunda img {
-    width: 100%;  /* substitui os 40em */
-    max-width: 640px;
-    height: auto;  /* deixa a altura proporcional */
+    width: 40em;
+    height: 50em;
+
+
+
 }
 
 .Segunda h1 {
@@ -517,8 +517,9 @@ flex-direction: column;
 }
 
 .Segunda img {
-width: 22em;
-height: 35em;
+    width:20em;
+    height: 30em;
+    border-radius: 1em;
 min-width: 360;
 
 
