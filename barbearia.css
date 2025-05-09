@@ -5,6 +5,14 @@
 list-style: none;
 
 }
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 header {
     background-color: #2b2829;
@@ -131,13 +139,10 @@ color: white;
 }
 
 .Segunda img {
-    width: 40em;
-    height: 50em;
-
-
-
+    width: 100%;  /* substitui os 40em */
+    max-width: 640px;
+    height: auto;  /* deixa a altura proporcional */
 }
-
 .Segunda h1 {
     display: flex;
     font-size: 50px;
