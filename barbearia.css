@@ -35,6 +35,12 @@ z-index: 999;
 
 }
 
+.div-icone i:hover {
+color: gray;
+transition: 0.8s;
+
+}
+
 .ul-lista {
     display: flex;
     gap: 20px;
@@ -42,6 +48,12 @@ z-index: 999;
    
 
 
+
+}
+
+.Div-pai img:hover {
+ transform: scale(1.1);
+    transition: transform 0.3s ease;
 
 }
 
@@ -141,6 +153,7 @@ color: white;
     width: 100%;
     max-width: 40em;
     height: auto;
+    border-radius: 15px;
 }
 
 .Segunda h1 {
@@ -216,9 +229,14 @@ color: white;
 
 }
 
+.Div-Imagem:hover {
+transform: scale(1.1);
+    transition: transform 0.3s ease;
+
+}
 .h1-unidades {
     text-align: center;
-    font-size: 2em;
+    font-size: 2.7em;
 
 
 
@@ -341,6 +359,7 @@ color: white;
 
 
 
+
 .Pai-caixas h1 {
 padding-top: 0.8em;
 
@@ -359,6 +378,12 @@ margin-bottom: 1em;
 
 
 }
+
+.Pai-caixas div:hover {
+transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+
 
 .corte {
     box-shadow: 10px 10px 30px rgb(214, 214, 214);
@@ -446,6 +471,11 @@ transition: 0.8s;
 
 }
 
+.div-icone2 i:hover {
+color: gray;
+transition: 0.8s;
+
+}
 
 .Container {
 display: flex;
@@ -471,6 +501,11 @@ font-size: 2rem;
 
 }
 
+.Redes-Sociais i:hover {
+color: gray;
+transition: 0.8s;
+
+}
 
 .div-icone2   {
 display: flex;
