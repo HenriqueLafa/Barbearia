@@ -51,7 +51,7 @@ transition: 0.8s;
 
 }
 
-.Div-pai img:hover {
+.Cartao-01:hover {
  transform: scale(1.1);
     transition: transform 0.3s ease;
 
