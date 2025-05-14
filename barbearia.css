@@ -384,7 +384,11 @@ transform: scale(1.1);
     transition: transform 0.3s ease;
   }
 
+.Pai-caixas p:hover {
+color: gray;
+transition: 0.8s;
 
+}
 .corte {
     box-shadow: 10px 10px 30px rgb(214, 214, 214);
     transition: 0.8s;
@@ -543,6 +547,14 @@ padding: 0.3rem;
 background: transparent;
 color: white;
 font-size: 1.5rem;
+
+}
+
+.hamburguer:hover {
+color: gray;
+transition: 0.8s;
+
+
 
 }
 
