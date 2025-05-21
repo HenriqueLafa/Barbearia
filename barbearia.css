@@ -510,6 +510,16 @@ color: gray;
 transition: 0.8s;
 
 }
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 .div-icone2   {
 display: flex;
@@ -539,7 +549,12 @@ align-items: center;
 }
 
 
+ 
 
+    .ul-lista.show {
+        display: flex;
+        flex-direction: column;
+    }
 
 .hamburguer {
 display: flex;

@@ -10,15 +10,7 @@
     <title>Barbearia JK</title>
     
 <body>
-    <script>
-        var dombosco = prompt ("Qual é o seu nome");
-        alert("Seja Bem Vindo ao site da Barbearia JK "  + dombosco);
-      let templateLiteral = `String interpolation allows embedding expressions like ${1 + 1}`;
-    //Essa é uma String template,basicamente usados em casos onde há a necessidade de 
-    // realizar uma ação aritmetica(como no exemplo) ou quando guardamos alguma variavel dentro dela.
-    //
-    
-    </script>
+  
     
 
 
@@ -29,15 +21,15 @@
 
         <div>
             <nav class="nav-header">
-                <ul class="ul-lista">
+                <ul class="ul-lista" id="menuMobile">
                     <li>
-                        <a href="">CORTES</a>
+                        <a href="#Quarta">CORTES</a>
                     </li>
                     <li>
-                        <a href="">SERVIÇOS</a>
+                        <a href="#Quinta">SERVIÇOS</a>
                     </li>
                     <li>
-                        <a href="">UNIDADES</a>
+                        <a href="#Terceira">UNIDADES</a>
                     </li>
                 </ul>
             </nav>
@@ -56,16 +48,16 @@
 
     <main>
 
-        <section class="Primeira">
+        <section class="Primeira" id="Primeira">
             <div class="div-01">
                 <h1>Barbearia JK</h1>
-                <p> Nossa equipe de barbeiros experientes está pronta para oferecer um atendimento personalizado,
+                <p id="Serviços"> Nossa equipe de barbeiros experientes está pronta para oferecer um atendimento personalizado,
                     garantindo
                     que você saia com o visual que sempre desejou. </p>
 
                 <a href="">
-                    <button>ACESSE AQUI</button>
-                </a>
+                    <button id="button">ACESSE AQUI</button>
+                </a >
                     
 
 
@@ -103,7 +95,7 @@
 
         </section>
 
-        <section class="Terceira">
+        <section class="Terceira" id="Terceira">
             <h1 class="h1-unidades">UNIDADES</h1>
 
             <div class="Div-pai">
@@ -145,12 +137,12 @@
 
         </section>
 
-        <section class="Quarta">
-            <h1 class="Serviços">SERVIÇOS</h1>
+        <section class="Quarta" id="Quinta">
+            <h1 class="Serviços" id="Quarta">SERVIÇOS</h1>
 
             <div class="Pai-caixas">
 
-                <div class="corte">
+                <div class="corte" id="corte">
                     <a href="">
                         <img src="corte.png" alt="corte">
                         <h1 class="barbeiro">Corte</h1>
@@ -284,7 +276,7 @@
             </script>
         </body> <!-- Fim do corpo da página -->
 
-
+<script src="barbearia .js"></script>
 </body>
 
 </html>
